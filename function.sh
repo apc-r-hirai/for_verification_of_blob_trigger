@@ -9,7 +9,7 @@ FUNCTION_STORAGE_ACCOUNT="<関数用ストレージアカウント名>"
 BLOB_STORAGE_ACCOUNT="<Blob用ストレージアカウント名>"
 KEY_VAULT_NAME="<Key Vault キーコンテナ名>"
 WEBHOOK_SECRET_NAME="<シークレット名>"
-WEBHOOK_URI="<Webhook URL>"
+WEBHOOK_URI="<Slack Webhook URL>"
 EVENT_SUBSCRIPTION_NAME="<イベントサブスクリプション名>"
 
 # 作業するサブスクリプションの指定
