@@ -1,0 +1,1 @@
+# for_verification_of_blob_trigger
