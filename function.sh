@@ -82,7 +82,7 @@ az functionapp config appsettings set --name ${FUNCTION_APP} --resource-group ${
 az functionapp identity assign --name ${FUNCTION_APP} --resource-group ${RESOURCE_GROUP}
 
 echo "Waiting for the managed identity to be fully registered..."
-sleep 60
+sleep 30
 
 # プリンシパルIDの取得
 PRINCIPAL_ID=$(az functionapp identity show --name ${FUNCTION_APP} --resource-group ${RESOURCE_GROUP} --query principalId --output tsv)
